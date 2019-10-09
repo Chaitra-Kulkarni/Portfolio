@@ -237,7 +237,7 @@ body {
     margin: 30px auto;
 }
 
-#aboutme a{
+.links a{
     height: 50px;
     width: 50px;
     color: #000;
@@ -248,11 +248,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-#aboutme a:hover {
+.links a:hover {
     background-color: #D63031;
     transition: all 1s;
     transform: scale(1.2) rotate(360deg);
 }
+
 /* -------- End of  About me Section -------- */
 
 
