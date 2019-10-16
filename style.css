@@ -237,22 +237,7 @@ body {
     margin: 30px auto;
 }
 
-.links a{
-    height: 50px;
-    width: 50px;
-    color: #000;
-    background-color: #218F76;
-    border-radius: 50%;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-}
-.links a:hover {
-    background-color: #D63031;
-    transition: all 1s;
-    transform: scale(1.2) rotate(360deg);
-}
+
 
 /* -------- End of  About me Section -------- */
 
@@ -394,9 +379,14 @@ body {
     width: 220px;
     height: 270px;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.8);
     color: #DAE0E2;
     border-radius: 3px;
+}
+.project-layout .project .details .content h4{
+    color: #e67e22;
+    margin-top: 5%;
+    
 }
 .project-layout .project .details .content ul {
     list-style-type: none;
@@ -422,40 +412,30 @@ body {
 #contacts h5,h3 {
     padding-top: 20px;
 }
-
-.contact-section {
-    max-width: 600px;
-    transition: all 1s;
-}
-
-.contact-text {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    background-color: #333945;
-    color: #EAF0F1;
-    padding: 20px 40px;
-    margin-bottom: 10px;
-    border: none;
-    outline: none;
-    border-radius: 6px;
-    transition: 1s;
-    resize: none;
-}
-.contact-text:focus{
-    box-shadow: 4px 4px #218F76;
-}
-
-.contact-section .button{
-    padding: 13px 60px;
+#contacts h1{
+    text-transform: uppercase;
+    width: 30%;
+    padding: 13px 0px;
     margin: 30px auto;
-    border: none;
-    border-radius: 35px;
-    background-color:#218F76;
+    border: 2px dashed #2C3335;
+    border-radius: 15px;
+    color: #2C3335;
+}
+.links a{
+    height: 60px;
+    width: 60px;
     color: #000;
-    font-size: 1.2em;
-    font-weight: 600;
-    outline: none;
+    background-color: #218F76;
+    border-radius: 50%;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a:hover {
+    background-color: #D63031;
+    transition: all 1s;
+    transform: scale(1.2) rotate(360deg);
 }
 .scroll {
     position: fixed;
@@ -464,15 +444,13 @@ body {
     border-radius: 50%;
     background-color: #218F76;
     bottom: 15%;
-    left: 90%;
+    left: 88%;
     color: #000;
     cursor: pointer;
      
 }
-
 .scroll:hover{
     color: #000;
-
 }
 /* -------- End of  Contacts Section -------- */
 
