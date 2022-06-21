@@ -246,6 +246,7 @@ body {
 
 #skills {
     background-image: linear-gradient(to top left, #99AAAB, #c1c1c1, #99AAAB );
+
 }
 
 .inner {
@@ -263,72 +264,11 @@ body {
     align-items: center;
 }
 
-#skills .img {
-    height: 120px;
-    width: 120px;
-    background-color: #EAF0F1;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#skills .img img {
-    height: 70px;
-    width: 70px;
-}
-#skills .img h6 {
-    color: #2C3335;
-}
-
-@media screen and (max-width: 990px) {
-    .inner {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 0.5rem;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 3rem;
-    }
-    #skills .img {
-        height: 90px;
-        width: 90px;
-        background-color: #EAF0F1;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #skills .img img{
-        height: 50px;
-        width: 50px;
-    }
-}
-@media screen and (max-width: 650px) {
-    .inner {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1rem;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 5rem;
-    }
-    #skills .img {
-        height: 120px;
-        width: 120px;
-        background-color: #EAF0F1;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #skills .img img{
-        height: 70px;
-        width: 70px;
-    }
-
+.individual-skills {
+    text-align: center;
+    border: 1px solid #000;
+    width: 500px;
+    height: 100px;
 }
 
 /* -------- End of  Skills Section -------- */
