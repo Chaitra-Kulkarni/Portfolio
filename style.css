@@ -62,12 +62,12 @@ body {
     color: #67E6DC;
 }
 
-.video h5{
+.video h4{
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #E83350;
+    color: #4af18a;
 }   
 
 .logo-animation li {
